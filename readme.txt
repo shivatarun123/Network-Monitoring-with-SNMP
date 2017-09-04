@@ -22,15 +22,4 @@
 10.Remove oldest libraries:
    rm /usr/local/lib/libnetsnmp*
 
-#####################################################################################################################
 
-Steps to execute the assignment
-1. Make changes to /etc/snmp/snmpd.conf
-   make changes in agent behaviour section such it listens on all the interfaces.
-   Comment the access control section snmpd.conf.
-   Add the following line at the end of the snmpd.conf perl do "file location of the subagent file"
-2. Execute conuter.pl, it generates the counter.conf which contains the counter values.
-3. Open terminal and type the snmpget request. The corresponding output will be displayed on the terminal.
-
-
-########################################################################################
